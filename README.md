@@ -1,3 +1,16 @@
+Doctrine Entity Proxy Watch POC
+===============================
+
+Using GruntJS to watch for changed files (Doctrine entities) and generating them to avoid runtime generation.
+
+When you have the demo application installed and properly set up (see instructions below) follow these additional steps:
+
+  1. `npm install`
+  2. `node_modules/grunt-cli/bin/grunt watch:doctrine-entity`
+  3. You are set to go, try changing some entities and check their proxies in `app/cache/dev/doctrine/orm/Proxies/`.
+
+---
+
 Symfony Demo Application
 ========================
 
